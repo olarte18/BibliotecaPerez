@@ -29,7 +29,7 @@ public class PanelOperaciones extends JPanel
         this.setBackground(Color.WHITE);
 
         //Crear y agregar boton AgregarVendedor
-        btCalcular = new JButton("Calcular Costo");
+        btCalcular = new JButton("Agregar");
         btCalcular.setBounds(10,20,170,20);
         btCalcular.setActionCommand("calcular");
         this.add(btCalcular);

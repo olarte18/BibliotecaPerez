@@ -13,6 +13,10 @@ public class Libro
         this.añoEdicion = añoEdicion;
         this.edicionLujo = edicionLujo;
     }
+    public Libro()
+    {
+        
+    }
 
     public String getNombreAutor() {
         return nombreAutor;
