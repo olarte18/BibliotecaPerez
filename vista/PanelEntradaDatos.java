@@ -17,7 +17,7 @@ public class PanelEntradaDatos extends JPanel
     //----------------------
     private JLabel lbOperador, lbNum, lbValor,lbCant ;
     private JComboBox cbOperador;
-    private TextField txNum,txValor, txCant; 
+    private TextField txNum,txValor, txCant, txOperador; 
 
     //----------------------
     // Metodos
@@ -30,8 +30,11 @@ public class PanelEntradaDatos extends JPanel
 
         //Crear y agregar etiqueta empleados
         lbOperador = new JLabel("Nombre Autor ", JLabel.RIGHT);
-        lbOperador.setBounds(0,110,100,20);
+        lbOperador.setBounds(0,70,100,20);
         this.add(lbOperador);
+        txOperador = new TextField( JLabel.RIGHT);
+        txOperador.setBounds(120,70,100,20);
+        this.add(txOperador);  
         //Crear y agregar texto empleados
         lbNum = new JLabel("Nombre libro ", JLabel.RIGHT);
         lbNum.setBounds(10,20,100,20);
